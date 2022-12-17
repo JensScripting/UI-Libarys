@@ -1,6 +1,6 @@
 -- This User Interface Library is brought to you by Jens Software.
 local Jens = Instance.new("ScreenGui")
-Jens.Name = "dosage's Jens gui"
+Jens.Name = "JensLibary"
 Jens.Parent = game.CoreGui
 Jens.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 
