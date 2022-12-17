@@ -1,7 +1,8 @@
 -- This User Interface Library is brought to you by Jens Software.
+local CoreGui = game:GetService('CoreGui');
 
-if game.CoreGui:FindFirstChild('JensLibary') then
-    game.CoreGui['JensLibary']:Destroy()
+if CoreGui:FindFirstChild('JensLibary') then
+    CoreGui['JensLibary']:Destroy(),
 end;
 
 local Jens = Instance.new("ScreenGui")
